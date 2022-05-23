@@ -1,0 +1,13 @@
+파일 생성
+•파일 객체 = open(파일 이름, 파일 열기 모드, encoding='UTF-8’) 
+  º파일명이 한글일 경우는 encoding='UTF-8＇을 사용
+파일출력함수 : write()
+파일입력함수 : readline(), readlines(), read()
+•readline(): 파일의 첫 번째 줄을 읽어 출력하는 경우
+•readlines(): 파일의 모든 라인을 읽어서 각각의 줄을 요소로 갖는 리스트로 리턴
+•read(): 파일의 내용 전체를 문자열로 리턴
+파일 닫기
+•파일 객체.close()
+
+파일을 open한 후 with…as 구문이 끝나면 자동으로 close
+with open(파일 경로, 모드) as 파일 객체:

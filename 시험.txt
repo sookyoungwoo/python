@@ -1,0 +1,42 @@
+파이썬 중간고사 정리
+1. 표준출력
+함수:print
+#표준출력1
+print('hello')
+#표준출력2
+print('hello', end=' ')
+print(world)
+#표준출력3
+print('hello', 'world')
+print('hello' + 'world')
+
+이스케이프 시퀸스(Escape Sequence)
+＼와 특정문자를 결합, 문자를 표시해주는 단어
+＼ : back slash
+＼' : 작은 따옴표(single quotation)
+＼" : 큰 따옴표(duble qutation)
+＼n : 개행(엔터)
+
+2. 표준입력
+함수:input()
+입력값=문자열
+#표준입력
+x=input()
+x
+#두 값을 입력받아 더한 결과를 출력해보기
+x=input('x 입력 : ')
+y=input('y 입력 : ')
+#출력
+print(x, '+', y, '=',x+y)
+
+#f 스트링 출력
+print(f'{x}+{y}={x+y}')
+
+#'+' 연산자가 결합연산자로 사용됨
+x 입력 : 5
+y 입력 : 4
+5 + 4 = 54
+
+정수, 실수 입력
+-정수 : int(input('메세지')
+-실수 : float(input('메세지'))
